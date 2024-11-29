@@ -2,24 +2,7 @@
   <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="50" height="50">
 </div>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const textElement = document.getElementById('typing-effect');
-    const text = '# Welcome to devrus! 👋✨';
-    let index = 0;
-
-    function typeWriter() {
-      if (index < text.length) {
-        textElement.innerHTML += text.charAt(index);
-        index++;
-        setTimeout(typeWriter, 100);
-      }
-    }
-    typeWriter();
-  });
-</script>
-
-<h1 id="typing-effect"></h1>
+![Typing Animation](https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif)  
 
 ![Banner](https://via.placeholder.com/1200x300.png?text=Welcome+to+devrus)  
 
